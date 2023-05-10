@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.container .header {
+    background-color: aqua;
+    padding: 20px;    
+}
+
+.container .header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.content {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.content p {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    padding: 10px;
+}
+
+.content .parrafo {
+    background-color: aquamarine;
+    color: black;
+    border: 0;
+}
+
+.container footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(32, 131, 19);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Operadores de Incremento y Decremento</title>
+</head>
+<body>    
+    <div class="container">
+        <div class="header">
+            <h1>Curso JavaScript desde 0</h1>
+        </div>        
+        <div class="content">            
+            <h2>Jugando con las variables</h2>
+            <script>
+                var nombre = "David";
+                var apellido = "Vanegas";
+                document.write("<p>");//abrimos etiqueta de párrafo
+                document.write("Bienvenido! "+ nombre + " " + apellido);//estas variables declaradas e inicializadas se muestran en el párrafo
+                document.write("</p>");//cerramos la etiqueta de párrafo
+            </script>  
+            <p class="parrafo">
+                El nombre mostrado entre las lineas rojas son variables declaradas y asignadas JavaScript.
+                Estas variables se muestran en el una etiqueta p o parrafo dentro de el código de JS 
+                Al cual se le asignaron sus propios estilos. <br/> <br/>
+                El la siguiente linea, mostrará las variables que ingresemos, ya que vamos a utilizar
+                la función prompt de JavaScript, la cual permite que podamos asignar un valor a una variable
+                desde el navegador. 
+            </p>             
+            <script>
+                var nombre = prompt("Ingresa tu nombre por favor: "); //almacenamos el valor ingresado en la variable nombre               
+                alert("El nombre ingresado es: " + nombre); //muestra el valor de la variable
+                var apellido = prompt("Ingresa tu apellido por favor: "); //almacenamos el valor ingresado en la variable apellido
+                alert("El apellido ingresado es: " + apellido); //muestra el valor de la variable 
+                var edad = prompt("Ingresa tu edad por favor: "); //almacenamos el valor ingresado en la variable nombre             
+                var decrementoEdad = prompt("¿Cuántos años quisieras quitarte?: "); //almacenamos el valor ingresado en la variable nombre
+                edad-=decrementoEdad;//utilizamos el operador decremento para restarle el valor ingresado a la variable decrementoEdad
+                document.write("<p>");//abrimos etiqueta de párrafo
+                document.write("Hola de nuevo " + nombre + " " + apellido + "<br>Felicitaciones, ahora tienes " + edad + " años."); //estas variables se muestran en el párrafo
+                document.write("</p>"); //cerramos la etiqueta de párrafo
+            </script>          
+        </div> 
+        <footer>
+            <p>&copy;Pildoras Informaticas</p>
+        </footer>                    
+    </div>     
+</body>
+</html>
